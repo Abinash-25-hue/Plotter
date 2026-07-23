@@ -5,3 +5,4 @@ x = []
 y = []
 
 with open("example1.csv", "r") as file :
+    read = csv.reader(file)
